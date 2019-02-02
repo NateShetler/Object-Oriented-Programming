@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/card.h
+iostream
+-
+
+../include/deck.h
+card.h
+../include/card.h
+vector
+-
+algorithm
+-
+random
+-
+
+../include/game.h
+deck.h
+../include/deck.h
+
+/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/card.cpp
+card.h
+/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/card.h
+
+/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/deck.cpp
+deck.h
+/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/deck.h
+
+/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/game.cpp
+game.h
+/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/game.h
+
+/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/main.cpp
+game.h
+/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/game.h
+iostream
+-
+

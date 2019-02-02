@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/war.dir/src/card.cpp.o CMakeFiles/war.dir/src/deck.cpp.o CMakeFiles/war.dir/src/game.cpp.o CMakeFiles/war.dir/src/main.cpp.o  -o war 

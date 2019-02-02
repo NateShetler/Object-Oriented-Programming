@@ -1,0 +1,3 @@
+/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build/CMakeFiles/war.dir
+/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build/CMakeFiles/edit_cache.dir
