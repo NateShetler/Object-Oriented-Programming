@@ -7,7 +7,7 @@ the card class.
   
 The deck class is comprised of 52 card objects. There are various functions in the deck class such as makeDeck, shuffleDeck, and displayDeck.
 
-  -makeDeck will create a vector of Cards. shuffleDeck will shuffle the created deck. isplayDeck will display the deck. This won't really   be used in the program though, it was mostly for testing. 
+  -makeDeck will create a vector of Cards. shuffleDeck will shuffle the created deck. displayDeck will display the deck. This won't really   be used in the program though, it was mostly for testing. 
   
 The game class is comprised of a deck and two players. It only has one function which is called playGame. The players 
 are each a vector comprised of 26 cards. Essentially they are a half deck. The game class also does all of the game logic. It compares 
