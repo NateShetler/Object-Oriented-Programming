@@ -2,7 +2,7 @@ For this implementation of war I created a card, deck, and game class.
 
 The card class is comprised of two enums. One of the enums is for the rank of the card (two, three, ... ace), 
 and the other is for the suit of the card (Diamonds, Spades, Hearts, Clubs). I overloaded the << operator so one can use cout with 
-the card class.
+the card class. I also overloaded the comparison operator > so one can compare two cards to see who has the greater rank.
   
   
 The deck class is comprised of 52 card objects. There are various functions in the deck class such as makeDeck, shuffleDeck, and displayDeck.
