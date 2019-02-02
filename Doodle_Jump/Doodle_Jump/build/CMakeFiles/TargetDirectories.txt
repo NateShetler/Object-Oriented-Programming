@@ -1,0 +1,3 @@
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Doodle_Jump/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Doodle_Jump/build/CMakeFiles/doodle.dir
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Doodle_Jump/build/CMakeFiles/edit_cache.dir
