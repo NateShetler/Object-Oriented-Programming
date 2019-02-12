@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/nates/OneDrive/Documents/vscode/Doodle_Jump/images 
+CXX_INCLUDES = -I/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/images 
 

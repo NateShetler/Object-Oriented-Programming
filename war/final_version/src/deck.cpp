@@ -1,4 +1,5 @@
 #include "deck.h"
+#include <random>
 
 //implementations of the deck functions
 
@@ -6,17 +7,29 @@ void Deck::makeDeck()
 {
     const int SUITS = 4;
     const int RANKS = 13;
-    Suit suit[SUITS] = {hearts, diamonds, spades, clubs};
-    Rank rank[RANKS] = {ace, two, three, four, five, six, 
-    seven, eight, nine, ten, queen, king, jack};
 
-	for (int i = 0; i < RANKS; ++i)
+    //this will be used to set the cards in the deck
+    unsigned char cardSet = 0;
+
+    //loops for creating the deck
+    for (int i = 0; i < SUITS; ++i)
 	{
-		for (int k = 0; k < SUITS; ++k)
+		for (int k = 0; k < RANKS; ++k)
 		{
-		    Card newCard{suit[k], rank[i]};
+		    Card newCard{cardSet};
 			deck.push_back(newCard);
+
+            //add one to rank
+            ++cardSet;
 		}
+
+        //this will shift the card information left by four so that 
+        //adding one will add to the suit of the card 
+        cardSet >>= 4;
+        ++cardSet; 
+        //this will shift right again allowing the rank to be modified
+        //for the next iteration of the loop
+        cardSet <<= 4;
 	}
 		
 }
@@ -31,8 +44,10 @@ void Deck::displayDeck()
 
 void Deck::shuffleDeck()
 {
-    //this is so the shuffle is truly random
-    std::srand(time(0));
-    
-    std::random_shuffle(deck.begin(), deck.end());
+    //creating a random number
+    std::random_device rng;
+    std::minstd_rand ran(rng());
+
+    //shuffling
+    std::shuffle(deck.begin(), deck.end(), ran);
 }

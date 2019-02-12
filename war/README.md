@@ -16,3 +16,11 @@ to the bottom of the winners deck. The game will keep playing until one player h
 (Basically the same thing).
 
 The only things in main are a deck object and a game object and then a call to the playGame function. 
+
+
+UPDATED VERSION:
+
+Adding on to above, this version fixed a vector bug. It also reworked the card class
+into a single unsigned int. This change required other classes and functions involving the 
+card to be changed and updated as well. This included changes to the Card Class, Deck Class, 
+makeDeck() function, << operator for displaying a card, and > operator for comparing two cards. 

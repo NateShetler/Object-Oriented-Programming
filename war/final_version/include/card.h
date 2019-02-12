@@ -32,8 +32,8 @@ enum Rank
 
 struct Card
 {
-    Suit suit;
-    Rank rank;
+    //public member for the information of the card
+    unsigned char cardData; 
 
 };
 

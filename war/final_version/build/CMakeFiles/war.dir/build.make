@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version
+CMAKE_SOURCE_DIR = /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build
+CMAKE_BINARY_DIR = /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/war.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/war.dir/flags.make
 
 CMakeFiles/war.dir/src/card.cpp.o: CMakeFiles/war.dir/flags.make
 CMakeFiles/war.dir/src/card.cpp.o: ../src/card.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/war.dir/src/card.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/war.dir/src/card.cpp.o -c /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/card.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/war.dir/src/card.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/war.dir/src/card.cpp.o -c /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/src/card.cpp
 
 CMakeFiles/war.dir/src/card.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/war.dir/src/card.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/card.cpp > CMakeFiles/war.dir/src/card.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/src/card.cpp > CMakeFiles/war.dir/src/card.cpp.i
 
 CMakeFiles/war.dir/src/card.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/war.dir/src/card.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/card.cpp -o CMakeFiles/war.dir/src/card.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/src/card.cpp -o CMakeFiles/war.dir/src/card.cpp.s
 
 CMakeFiles/war.dir/src/card.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/war.dir/src/card.cpp.o.provides.build: CMakeFiles/war.dir/src/card.cp
 
 CMakeFiles/war.dir/src/deck.cpp.o: CMakeFiles/war.dir/flags.make
 CMakeFiles/war.dir/src/deck.cpp.o: ../src/deck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/war.dir/src/deck.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/war.dir/src/deck.cpp.o -c /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/deck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/war.dir/src/deck.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/war.dir/src/deck.cpp.o -c /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/src/deck.cpp
 
 CMakeFiles/war.dir/src/deck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/war.dir/src/deck.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/deck.cpp > CMakeFiles/war.dir/src/deck.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/src/deck.cpp > CMakeFiles/war.dir/src/deck.cpp.i
 
 CMakeFiles/war.dir/src/deck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/war.dir/src/deck.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/deck.cpp -o CMakeFiles/war.dir/src/deck.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/src/deck.cpp -o CMakeFiles/war.dir/src/deck.cpp.s
 
 CMakeFiles/war.dir/src/deck.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/war.dir/src/deck.cpp.o.provides.build: CMakeFiles/war.dir/src/deck.cp
 
 CMakeFiles/war.dir/src/game.cpp.o: CMakeFiles/war.dir/flags.make
 CMakeFiles/war.dir/src/game.cpp.o: ../src/game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/war.dir/src/game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/war.dir/src/game.cpp.o -c /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/war.dir/src/game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/war.dir/src/game.cpp.o -c /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/src/game.cpp
 
 CMakeFiles/war.dir/src/game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/war.dir/src/game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/game.cpp > CMakeFiles/war.dir/src/game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/src/game.cpp > CMakeFiles/war.dir/src/game.cpp.i
 
 CMakeFiles/war.dir/src/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/war.dir/src/game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/game.cpp -o CMakeFiles/war.dir/src/game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/src/game.cpp -o CMakeFiles/war.dir/src/game.cpp.s
 
 CMakeFiles/war.dir/src/game.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/war.dir/src/game.cpp.o.provides.build: CMakeFiles/war.dir/src/game.cp
 
 CMakeFiles/war.dir/src/main.cpp.o: CMakeFiles/war.dir/flags.make
 CMakeFiles/war.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/war.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/war.dir/src/main.cpp.o -c /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/war.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/war.dir/src/main.cpp.o -c /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/src/main.cpp
 
 CMakeFiles/war.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/war.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/main.cpp > CMakeFiles/war.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/src/main.cpp > CMakeFiles/war.dir/src/main.cpp.i
 
 CMakeFiles/war.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/war.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/src/main.cpp -o CMakeFiles/war.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/src/main.cpp -o CMakeFiles/war.dir/src/main.cpp.s
 
 CMakeFiles/war.dir/src/main.cpp.o.requires:
 
@@ -169,7 +169,7 @@ war: CMakeFiles/war.dir/src/game.cpp.o
 war: CMakeFiles/war.dir/src/main.cpp.o
 war: CMakeFiles/war.dir/build.make
 war: CMakeFiles/war.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable war"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable war"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/war.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/war.dir/clean:
 .PHONY : CMakeFiles/war.dir/clean
 
 CMakeFiles/war.dir/depend:
-	cd /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build /mnt/c/Users/nates/OneDrive/Documents/vscode/war/final_version/build/CMakeFiles/war.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/build /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/build /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/war/final_version/build/CMakeFiles/war.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/war.dir/depend
 

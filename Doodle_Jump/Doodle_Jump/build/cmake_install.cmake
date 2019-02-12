@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/nates/OneDrive/Documents/vscode/Doodle_Jump
+# Install script for directory: /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/nates/OneDrive/Documents/vscode/Doodle_Jump/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
