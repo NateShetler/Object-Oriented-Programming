@@ -32,9 +32,15 @@ enum Rank
 
 struct Card
 {
-    //public member for the information of the card
-    unsigned char cardData; 
-
+    private:
+        unsigned char cardData; 
+    
+    public:
+        unsigned char get_cardData(){ return cardData;}
+        
+        Card(unsigned char c)
+            : cardData(c)
+        {}
 };
 
 

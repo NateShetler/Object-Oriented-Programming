@@ -5,7 +5,7 @@
 std::ostream& operator<<(std::ostream& os,Card c)
 {
     //switch statement for displaying the rank
-    switch (static_cast<Rank>(c.cardData & 0xf))
+    switch (static_cast<Rank>(c.get_cardData() & 0xf))
 	{
 		case 0: os << "Ace of "; break;
         case 1: os << "2 of "; break;
@@ -23,7 +23,7 @@ std::ostream& operator<<(std::ostream& os,Card c)
 	
     }
     //switch statement displaying the suit
-	switch (static_cast<Suit>(c.cardData >> 4))
+	switch (static_cast<Suit>(c.get_cardData() >> 4))
 	{
 		case 0: os << "Hearts"; break;
         case 1: os << "Diamonds"; break;
@@ -39,5 +39,5 @@ bool operator>(Card c1, Card c2)
     //This compares the rank of the two cards. Being a number
     //already makes the comparison less lines of code and
     //much faster than what I had in the last version. 
-    return (static_cast<int>(c1.cardData & 0xf)) > (static_cast<int>(c2.cardData & 0xf));
+    return (static_cast<int>(c1.get_cardData() & 0xf)) > (static_cast<int>(c2.get_cardData() & 0xf));
 }
