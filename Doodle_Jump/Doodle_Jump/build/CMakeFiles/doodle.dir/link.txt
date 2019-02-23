@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/doodle.dir/main.cpp.o  -o doodle /usr/lib/x86_64-linux-gnu/libsfml-graphics.so /usr/lib/x86_64-linux-gnu/libsfml-window.so /usr/lib/x86_64-linux-gnu/libsfml-system.so 
+/usr/bin/c++     CMakeFiles/doodle.dir/src/game.cpp.o CMakeFiles/doodle.dir/src/main.cpp.o  -o doodle /usr/lib/x86_64-linux-gnu/libsfml-graphics.so /usr/lib/x86_64-linux-gnu/libsfml-window.so /usr/lib/x86_64-linux-gnu/libsfml-system.so 

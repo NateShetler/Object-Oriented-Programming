@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/doodle.dir/main.cpp.o"
+  "CMakeFiles/doodle.dir/src/game.cpp.o"
+  "CMakeFiles/doodle.dir/src/main.cpp.o"
   "doodle.pdb"
   "doodle"
 )

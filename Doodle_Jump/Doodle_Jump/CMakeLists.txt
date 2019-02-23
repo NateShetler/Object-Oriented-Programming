@@ -5,7 +5,9 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../cmake")
 find_package(SFML COMPONENTS graphics window system)
 include_directories(${SFML_INCLUDE_DIR})
 
-add_executable(doodle main.cpp)
+include_directories(include)
+file(GLOB SOURCES "src/*.cpp")
+
+add_executable(doodle  ${SOURCES})
 target_link_libraries(doodle ${SFML_LIBRARIES})
 
-include_directories(images)

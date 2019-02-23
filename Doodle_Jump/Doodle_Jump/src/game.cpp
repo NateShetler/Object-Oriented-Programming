@@ -1,16 +1,14 @@
+#include "game.h"
 #include <SFML/Graphics.hpp>
 #include <time.h>
+#include "point.h"
 using namespace sf;
 
-struct point
-{
-  int x, y;
-};
+//this is the play game function
 
-int
-main()
+void Game::playGame()
 {
-  srand(time(0));
+    srand(time(0));
 
   RenderWindow app(VideoMode(400, 533), "Doodle Game!");
   app.setFramerateLimit(60);
@@ -75,6 +73,4 @@ main()
 
     app.display();
   }
-
-  return 0;
 }

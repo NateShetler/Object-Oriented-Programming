@@ -57,44 +57,70 @@ include CMakeFiles/doodle.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/doodle.dir/flags.make
 
-CMakeFiles/doodle.dir/main.cpp.o: CMakeFiles/doodle.dir/flags.make
-CMakeFiles/doodle.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/doodle.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doodle.dir/main.cpp.o -c /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/main.cpp
+CMakeFiles/doodle.dir/src/game.cpp.o: CMakeFiles/doodle.dir/flags.make
+CMakeFiles/doodle.dir/src/game.cpp.o: ../src/game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/doodle.dir/src/game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doodle.dir/src/game.cpp.o -c /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/src/game.cpp
 
-CMakeFiles/doodle.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doodle.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/main.cpp > CMakeFiles/doodle.dir/main.cpp.i
+CMakeFiles/doodle.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doodle.dir/src/game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/src/game.cpp > CMakeFiles/doodle.dir/src/game.cpp.i
 
-CMakeFiles/doodle.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doodle.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/main.cpp -o CMakeFiles/doodle.dir/main.cpp.s
+CMakeFiles/doodle.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doodle.dir/src/game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/src/game.cpp -o CMakeFiles/doodle.dir/src/game.cpp.s
 
-CMakeFiles/doodle.dir/main.cpp.o.requires:
+CMakeFiles/doodle.dir/src/game.cpp.o.requires:
 
-.PHONY : CMakeFiles/doodle.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/doodle.dir/src/game.cpp.o.requires
 
-CMakeFiles/doodle.dir/main.cpp.o.provides: CMakeFiles/doodle.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/doodle.dir/build.make CMakeFiles/doodle.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/doodle.dir/main.cpp.o.provides
+CMakeFiles/doodle.dir/src/game.cpp.o.provides: CMakeFiles/doodle.dir/src/game.cpp.o.requires
+	$(MAKE) -f CMakeFiles/doodle.dir/build.make CMakeFiles/doodle.dir/src/game.cpp.o.provides.build
+.PHONY : CMakeFiles/doodle.dir/src/game.cpp.o.provides
 
-CMakeFiles/doodle.dir/main.cpp.o.provides.build: CMakeFiles/doodle.dir/main.cpp.o
+CMakeFiles/doodle.dir/src/game.cpp.o.provides.build: CMakeFiles/doodle.dir/src/game.cpp.o
+
+
+CMakeFiles/doodle.dir/src/main.cpp.o: CMakeFiles/doodle.dir/flags.make
+CMakeFiles/doodle.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/doodle.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doodle.dir/src/main.cpp.o -c /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/src/main.cpp
+
+CMakeFiles/doodle.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doodle.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/src/main.cpp > CMakeFiles/doodle.dir/src/main.cpp.i
+
+CMakeFiles/doodle.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doodle.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/src/main.cpp -o CMakeFiles/doodle.dir/src/main.cpp.s
+
+CMakeFiles/doodle.dir/src/main.cpp.o.requires:
+
+.PHONY : CMakeFiles/doodle.dir/src/main.cpp.o.requires
+
+CMakeFiles/doodle.dir/src/main.cpp.o.provides: CMakeFiles/doodle.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/doodle.dir/build.make CMakeFiles/doodle.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/doodle.dir/src/main.cpp.o.provides
+
+CMakeFiles/doodle.dir/src/main.cpp.o.provides.build: CMakeFiles/doodle.dir/src/main.cpp.o
 
 
 # Object files for target doodle
 doodle_OBJECTS = \
-"CMakeFiles/doodle.dir/main.cpp.o"
+"CMakeFiles/doodle.dir/src/game.cpp.o" \
+"CMakeFiles/doodle.dir/src/main.cpp.o"
 
 # External object files for target doodle
 doodle_EXTERNAL_OBJECTS =
 
-doodle: CMakeFiles/doodle.dir/main.cpp.o
+doodle: CMakeFiles/doodle.dir/src/game.cpp.o
+doodle: CMakeFiles/doodle.dir/src/main.cpp.o
 doodle: CMakeFiles/doodle.dir/build.make
 doodle: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
 doodle: /usr/lib/x86_64-linux-gnu/libsfml-window.so
 doodle: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 doodle: CMakeFiles/doodle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable doodle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable doodle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/doodle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -102,7 +128,8 @@ CMakeFiles/doodle.dir/build: doodle
 
 .PHONY : CMakeFiles/doodle.dir/build
 
-CMakeFiles/doodle.dir/requires: CMakeFiles/doodle.dir/main.cpp.o.requires
+CMakeFiles/doodle.dir/requires: CMakeFiles/doodle.dir/src/game.cpp.o.requires
+CMakeFiles/doodle.dir/requires: CMakeFiles/doodle.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/doodle.dir/requires
 

@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/main.cpp
+../include/game.h
+
+../include/point.h
+
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/src/game.cpp
+game.h
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/src/game.h
 SFML/Graphics.hpp
 -
 time.h
 -
+point.h
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/src/point.h
+
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/src/main.cpp
+game.h
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Doodle_Jump/Doodle_Jump/src/game.h
 
