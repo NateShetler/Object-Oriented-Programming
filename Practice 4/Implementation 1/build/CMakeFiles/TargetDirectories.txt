@@ -1,0 +1,3 @@
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Practice 4/Implementation 1/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Practice 4/Implementation 1/build/CMakeFiles/joker.dir
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Practice 4/Implementation 1/build/CMakeFiles/edit_cache.dir

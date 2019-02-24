@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/card.h
+iostream
+-
+cassert
+-
+
+../include/deck.h
+card.h
+../include/card.h
+vector
+-
+algorithm
+-
+random
+-
+
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Practice 4/Implementation 1/src/card.cpp
+card.h
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Practice 4/Implementation 1/src/card.h
+
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Practice 4/Implementation 1/src/deck.cpp
+deck.h
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Practice 4/Implementation 1/src/deck.h
+random
+-
+
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Practice 4/Implementation 1/src/main.cpp
+deck.h
+/mnt/c/Users/nates/OneDrive/Documents/vscode/Object-Oriented-Programming/Practice 4/Implementation 1/src/deck.h
+

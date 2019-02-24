@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/joker.dir/src/card.cpp.o CMakeFiles/joker.dir/src/deck.cpp.o CMakeFiles/joker.dir/src/main.cpp.o  -o joker 
