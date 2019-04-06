@@ -1,3 +1,11 @@
+# Milestone 3
+
+This is doodle jump after I made a few adjustments. I added another 
+type of platform, the red platform. If the character jumps onto this
+type of platform then they will fall right through it! I also made it 
+so that there is a game over if the character falls to the bottom. 
+
+
 # Milestone 2
 
 This is doodle jump after I moved all of the code out of main and into 
