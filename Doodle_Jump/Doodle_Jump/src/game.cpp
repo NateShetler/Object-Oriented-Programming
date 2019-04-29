@@ -1,6 +1,38 @@
 #include "game.h"
 #include <iostream> 
 
+// This struct is used to detect and handle events
+struct events
+{
+  
+  private:
+    sf::RenderWindow *window;
+
+  public:
+    events(sf::RenderWindow& w)
+      : window(&w)
+    {}
+
+    void eventPoll()
+    {
+      sf::Event e;
+      while (window->pollEvent(e))
+      {
+        eventType(e);
+      }
+
+    }
+
+    void eventType(Event const& e)
+    {
+      switch (e.type)
+      {
+        case Event::Closed:
+          return window->close();
+      }
+    }
+};
+
 // This is the play game function
 void Game::playGame()
 {
@@ -40,11 +72,12 @@ void Game::playGame()
 
   // Game loop
   while (app.isOpen() && gameOver == false) {
-    Event e;
-    while (app.pollEvent(e)) {
-      if (e.type == Event::Closed)
-        app.close();
-    }
+    
+    // Create event listener and handler
+    events events(app);
+
+    // Detect Events
+    events.eventPoll();
 
     // This will move the character left and right
     moveCharacter(x);
@@ -82,8 +115,6 @@ void Game::playGame()
           (y + 70 > plat[i].y) && (y + 70 < plat[i].y + 14) && (dy > 0))
         dy = -10; // This changes the jump height
 
-
-    
     // Set position of sPers
     sPers.setPosition(x, y);
 
