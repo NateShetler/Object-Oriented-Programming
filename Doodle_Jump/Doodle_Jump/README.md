@@ -1,3 +1,9 @@
+# Milestone 4
+
+This is doodle jump after I factored out event processing. I removed it from 
+the main game logic and created an events class that can recognize events
+and then process them accordingly. 
+
 # Milestone 3
 
 This is doodle jump after I made a few adjustments. I added another 
